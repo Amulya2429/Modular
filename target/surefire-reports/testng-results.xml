@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T15:04:45 IST" name="Suite" finished-at="2024-11-19T15:05:39 IST" duration-ms="54209">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T15:04:45 IST" name="Test" finished-at="2024-11-19T15:05:39 IST" duration-ms="54209">
+      <class name="modularFramework.Modular">
+        <test-method is-config="true" signature="extent()[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:04:44 IST" name="extent" finished-at="2024-11-19T15:04:45 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extent -->
+        <test-method is-config="true" signature="setupReports()[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:04:45 IST" name="setupReports" finished-at="2024-11-19T15:04:45 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReports -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:04:45 IST" name="setup" finished-at="2024-11-19T15:04:47 IST" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invokeurl1()[pri:1, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:04:47 IST" name="invokeurl1" finished-at="2024-11-19T15:04:50 IST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeurl1 -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:04:50 IST" name="checkStatus" finished-at="2024-11-19T15:04:50 IST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void modularFramework.Modular.invokeurl1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=invokeurl1 status=SUCCESS method=Modular.invokeurl1()[pri:1, instance:modularFramework.Modular@5a1de7fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="addtocart(java.lang.String,java.lang.String)[pri:2, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:04:50 IST" name="addtocart" data-provider="LoginData" finished-at="2024-11-19T15:05:22 IST" duration-ms="31610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:05:22 IST" name="checkStatus" finished-at="2024-11-19T15:05:22 IST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void modularFramework.Modular.addtocart(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addtocart status=SUCCESS method=Modular.addtocart(java.lang.String,java.lang.String)[pri:2, instance:modularFramework.Modular@5a1de7fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="login1()[pri:3, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:05:22 IST" name="login1" finished-at="2024-11-19T15:05:35 IST" duration-ms="13245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:05:35 IST" name="checkStatus" finished-at="2024-11-19T15:05:36 IST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void modularFramework.Modular.login1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=login1 status=SUCCESS method=Modular.login1()[pri:3, instance:modularFramework.Modular@5a1de7fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="checkout1(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:05:36 IST" name="checkout1" data-provider="LogoutData" finished-at="2024-11-19T15:05:38 IST" duration-ms="2715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amulya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gundrathi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[509127]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout1 -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:05:38 IST" name="checkStatus" finished-at="2024-11-19T15:05:39 IST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void modularFramework.Modular.checkout1(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkout1 status=SUCCESS method=Modular.checkout1(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:modularFramework.Modular@5a1de7fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:05:39 IST" name="close" finished-at="2024-11-19T15:05:39 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="report()[pri:0, instance:modularFramework.Modular@5a1de7fb]" started-at="2024-11-19T15:05:39 IST" name="report" finished-at="2024-11-19T15:05:40 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- modularFramework.Modular -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
