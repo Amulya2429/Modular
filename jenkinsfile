@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+ environment {
+        JAVA_HOME = "${tool 'MyJava'}"  // Replace 'MyJava' with the correct JDK name from Global Tool Configuration
+        PATH = "${JAVA_HOME}/bin:${env.PATH}"
+    }
+    stages {
+        stage('Build') {
+            steps {
+                echo "Building the project"
+                bat "mvn clean"
+            }
+        }
+       
+        stage('Test') {
+            steps {
+                echo "Testing the project"
+                bat "mvn test"
+            }
+        }
+       
+        stage('Compile') {
+            steps {
+                echo "Compiling the project"
+                bat "mvn compile"
+            }
+        }
+       
+        stage('Deploy') {
+            steps {
+                echo "Deploying the project"
+                // Add deployment steps here if needed
+            }
+        }
+    }
+}
